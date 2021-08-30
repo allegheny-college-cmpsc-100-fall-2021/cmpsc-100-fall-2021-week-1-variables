@@ -61,7 +61,6 @@ The course will reconvene as a whole to discuss conclusions drawn or arising fro
 
 ## Values
 
-Not all teams will have `6` members. In that case, use only the amount of letters which assigns one variable for each team member (e.g. `5` folks will continue through `E`, _but not `F`).
 
 |Letter |Value |
 |:------|:-----|
@@ -70,4 +69,4 @@ Not all teams will have `6` members. In that case, use only the amount of letter
 |`C`    |`3`   |
 |`D`    |`4`   |
 |`E`    |`5`   |
-|`F`    |`6`   |
+|`F`    |`7`   |
