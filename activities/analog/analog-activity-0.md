@@ -68,4 +68,5 @@ The course will reconvene as a whole to discuss conclusions drawn or arising fro
 |`C`    |`3`   |
 |`D`    |`4`   |
 |`E`    |`5`   |
-|`F`    |`7`   |
+|`F`    |`6`   |
+|`G`    |`7`   |
