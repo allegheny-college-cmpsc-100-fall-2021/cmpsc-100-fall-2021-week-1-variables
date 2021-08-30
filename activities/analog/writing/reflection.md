@@ -11,3 +11,7 @@
 ## Describe the aspect(s) of the activity which were most difficult.
 
 `TODO`
+
+## What can you generalize about the order of instructions and why that matters?
+
+`TODO`

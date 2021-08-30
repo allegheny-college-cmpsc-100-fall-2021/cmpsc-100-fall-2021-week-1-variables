@@ -24,10 +24,8 @@ Duration: ~30 minutes
 To achieve a collective sum of as close to `100` as possible. Your team may exceed or have a total less than this number. Each transaction should be listed on its own line. There are multiple rounds to this game during which you will attempt the same task with varying constraints:
 
 1. You are restricted to only `10` "moves" (instructions) -- of which you must use all `10`
-2. You are restricted to `5.5` minutes
-3. You are restricted to using each variable once in all statements
-4. (If time allows) You can only use one operation (e.g. only `*=`)
-5. (If time allows) You may use up to `10` instructions
+2. Each variable may only be used in one instruction
+3. You are restricted to exactly `6` instructions
 
 Teams will be awarded points by ranking the team with the closest total to the team with the farthest total for each round. Points will be added up to achieve a total for the exercise.
 
@@ -35,7 +33,8 @@ Teams will be awarded points by ranking the team with the closest total to the t
 
 1. You must write each "move" as a correct expression (i.e. `boss_a -= boss_c`)
 2. Your team can only use the materials given to you (i.e. no additional numbers beyond those given you may be used; e.g. you can't multiply something by magically by `10`).
-3. At the end of the time, elect a member to be a scribe, using a different scribe for each round of the game. This scribe will write the instruction set used to solve the round on the whiteboard.
+3. You are allowed to create `1` additional variable which does not behave according to any of the rules, though you are not allowed to give it an arbitary value (i.e. something like a `total` variable, set to `0` at some point: `total = 0`)
+4. At the end of the time, elect a member to be a scribe, using a different scribe for each round of the game. This scribe will write the instruction set used to solve the round on the whiteboard.
 
 ## Scoring
 

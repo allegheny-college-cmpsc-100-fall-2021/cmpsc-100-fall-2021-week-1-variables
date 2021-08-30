@@ -6,7 +6,7 @@ indent: 4
 
 activities/analog/writing/reflection.md:
     MatchFileFragment --fragment "TODO" --count 0 --exact
-    CountFileParagraphs --count 3
+    CountFileParagraphs --count 4
 
 activities/digital/digital-0-variables.ipynb:
     MatchFileFragment --fragment "TODO" --count 0 --exact
