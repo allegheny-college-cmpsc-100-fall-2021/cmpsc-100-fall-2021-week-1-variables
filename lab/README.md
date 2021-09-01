@@ -10,7 +10,7 @@ One of the hardest parts of making a space aesthetically pleasing is hanging stu
 
 Your job (and, because it's worth grade points) that you choose to accept: your instructor humbly requests a way to calculate how to _evenly space_ various sets of pictures on a wall given ideal "margin" measurements. To wit:
 
-![We get it, Prof., you like your cat.](https://github.com/allegheny-college-cmpsc-100-fall-2021/cmpsc-100-fall-2021-week-1-variables-solution/blob/media/media/boss_gallery.png)
+![We get it, Prof., you like your cat.](https://github.com/allegheny-college-cmpsc-100-fall-2021/cmpsc-100-fall-2021-week-1-variables/blob/media/media/boss_gallery.png)
 
 You need to figure out how to appropriately space the three scenarios given in this document _and_ pass three _hidden_ scenarios that take place during grading. You won't see those hidden scenarios, but if you pass the tests given here, you should pass the grader's.
 
