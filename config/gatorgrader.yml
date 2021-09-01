@@ -20,6 +20,23 @@ activities/digital/digital-0-variables.py:
     MatchFileFragment --fragment "+=" --count 1
     MatchFileFragment --fragment "*=" --count 1
     MatchFileFragment --fragment "original_number =" --count 1
+    
+lab/week-1-lab.py:
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "input(" --count 1
+    MatchFileFragment --fragment "int(" --count 1
+    MatchFileFragment --fragment "=" --count 1
+    MatchFileFragment --fragment "-" --count 1
+    CountSingleLineComments --count 5 --language Python
+    
+lab/writing/reflection.md:
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    CountFileWords --count 200
 
-CountCommits --count 5
+    
+CountCommits --count 3
+ExecuteCommand --command "python lab/week-1-lab.py < lab/.measure_1"
+MatchCommandFragment --command "python lab/week-1-lab.py < lab/.measure_1" --fragment "11.5" --count 1 --exact
+MatchCommandFragment --command "python lab/week-1-lab.py < lab/.measure_2" --fragment "27.77" --count 1 --exact
+MatchCommandFragment --command "python lab/week-1-lab.py < lab/.measure_3" --fragment "330.0" --count 1 --exact
 MatchCommandFragment --command "python activities/digital/digital-0-variables.py < activities/digital/.case" --fragment "8" --count 1 --exact
